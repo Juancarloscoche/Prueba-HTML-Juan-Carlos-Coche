@@ -1,0 +1,325 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.2em;
+    margin: 0px;
+    background-color: #e1dfc3;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-image: url(/imagenes/print\ jirafa.jpg);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: #ffffff;
+    text-shadow: 5px  0px 0px black,
+    0px  2px 0px rgb(0, 0, 0),
+   -1px  0px 0px rgb(0, 0, 0),
+    0px -1px 0px rgb(0, 0, 0);
+}
+
+nav {
+    background-color: #c9b090;
+    overflow: hidden;
+}
+
+nav a {
+    display: block;
+    padding: 12px 16px;
+    float: left;
+    color: #373737;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: #dddddd;
+    color: #333333;
+}
+
+main {
+    margin: 80px 80px 180px;
+}
+
+/*Inicio*/
+/*--------------------------------------------------*/
+
+.cont_i {
+    background: linear-gradient(rgba(246, 156, 53, 0.756), rgb(250, 255, 192));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cont_i2 {
+    display: flex;
+    align-items: center;
+}
+
+
+.img_text1 {
+    width: 320px;
+    height: 210px;
+    margin-left: 20px;
+    border: 2px solid #801f1f;
+    border-radius: 10px;
+}
+
+
+.cont_i3 {
+    display: flex;
+    align-items: center;
+}
+
+.img_text2 {
+    width: 250px;
+    height: 150px;
+    margin-right: 50px;
+}
+
+.cont_i4 {
+    display: flex;
+    align-items: center;
+}
+
+.img_text3 {
+    width: 250px;
+    height: 150px;
+    margin-left: 50px; 
+}
+
+.cont_i5 {
+    display: flex;
+    align-items: center;
+}
+
+.img_text4 {
+    width: 320px;
+    height: 210px;
+    margin-left: 20px;
+    border: 2px solid #801f1f;
+    border-radius: 10px;
+    margin-right: 50px; 
+}
+
+.suge {
+    display: flex;
+    margin: 0 auto; 
+    width: 100%; 
+    max-width: 100px; 
+    height: auto;
+    margin-left: 10px; 
+}
+
+.p_inicio {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+}
+
+.cont_i6 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: -100px;
+}
+
+.video {
+    max-width: 100%; 
+    max-height: 100%;
+    width: 70%;
+    height: 0%; 
+    height: auto; 
+    margin-bottom: 30px;
+    aspect-ratio: 16 / 9;
+}
+
+/*Detalles*/
+/*--------------------------------------------------*/
+
+table img {
+    max-width: 40px; 
+    max-height: 40px; 
+}
+
+
+table td {
+    text-align: center;
+    padding: 20px 10px; 
+}
+
+
+.td1 {
+    text-align: left;
+    vertical-align: middle;
+    width: 250px;
+}
+
+.td1 img {
+    display: inline-block; 
+    vertical-align: middle; 
+    margin-right: 20px; 
+}
+
+
+.td1 span {
+    display: inline-block; 
+    vertical-align: middle; 
+}
+
+.td2 {
+    width: 300px;
+} 
+
+.contendor_det, .contenedor_det2 {
+    display: flex;
+    justify-content: space-between; 
+    align-items: flex-start; 
+    margin-top: 40px; 
+}
+
+.contenedor_det2{
+    margin-left: 250px;
+    margin-right: 650px;
+}
+.caja_det h4 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+.caja_det p{
+    text-align: center;
+}
+
+
+.columna {
+    flex: 1; 
+    margin: 0 20px; 
+}
+
+.caja_det {
+    background-color: #f3ece4;
+    border: 2px solid #801f1f;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px; 
+}
+
+.imagen_det{
+    display: block; 
+    height: auto;
+    border: 3px solid #150606;
+    border-radius: 10px;
+    margin-right: 40px;
+    width: 250px;
+    height: 150px; 
+    margin-left: 60px;
+}
+
+/*galeria*/
+/*----------------------------------------------------*/
+
+.galeria1, .galeria2, .galeria3 {
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 4px 8px 0 lightblue, 0 6px 20px 0 bl;
+}
+
+.jirafa1:hover, .jirafa3:hover, .jirafa5:hover{
+    transform: rotate(-3deg);
+}
+
+.jirafa2:hover, .jirafa4:hover, .jirafa6:hover{
+    transform: rotate(3deg);
+}
+
+.jirafa1, .jirafa3, .jirafa5 {
+    width: 350px;
+    height: 250px;
+    margin-right: 40px;
+    border: 3px solid #ffffff;
+    border-radius: 10px;
+}
+
+.jirafa2, .jirafa4, .jirafa6 {
+    width: 350px;
+    height: 250px;
+    margin-left: 40px;
+    border: 3px solid #ffffff;
+    border-radius: 10px;
+}
+
+
+/*contacto*/
+/*---------------------------------------------------------------*/
+
+.body_cont {
+    background-image: url(/imagenes/arbol\ selva.png);
+    background-color: #e1dfc3;
+    background-repeat: repeat;
+    background-size: 210px; 
+}/* Tamaño pequeño */
+
+.caja_cont {
+    margin-bottom: -50px; 
+    color: rgb(255, 255, 255);
+    text-shadow: 5px  0px 0px black,
+    0px  2px 0px rgb(0, 0, 0),
+   -1px  0px 0px rgb(0, 0, 0),
+    0px -1px 0px rgb(0, 0, 0);
+}
+
+
+.form {
+    width: 400px;
+    background: #ecf0d4;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: 'calibri';
+    color: rgb(0, 0, 0);
+    box-shadow: 7px 13px 37px #dfd57e;
+  }
+  
+  .form h4 {
+    font-size: 22px;
+    margin-bottom: 20px;
+  }
+  
+  .controls {
+    width: 95%;
+    background: #fafaf3;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #000000;
+    font-family: 'calibri';
+    font-size:18px;
+    color: rgb(12, 12, 12);
+  }
+  
+  .form p {
+    height: 40px;
+    text-align: left;
+    font-size: 21px;
+    line-height: 40px;
+    margin-bottom: 1px;
+    margin-top: -8px;
+
+  }
+  
+  .form .botons {
+    width: 100%;
+    background: #b0ad7a;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+  }
+
+footer {
+    text-align: center;
+    background-color: #f3ece4;    padding: px;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+}
